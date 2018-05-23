@@ -29,7 +29,7 @@ function makeStory() {
     // Build story.
     var paragraph1 = "A recent nationwide survey of over one hundred thousand " + adjective1 + " shows that the three articles most often misplaced are a woman's hand " + adjective2 + ",  keys to the " + noun1 + ", and most of all, the videocassette recorder " + noun2 + " The first place to look for your ";
     var paragraph2 = "missing remote is the couch. Check behind the " + noun3 + ", inbetween the " + noun4 + ", and if necessary, get down on your hands and " + noun5 + " and look under the " + noun6 + " or coffee " + noun7 + ". Believe it or not, remotes have been found in such odd";
-    var paragraph3 = " places as inside of a " + pastTenseVerb + ", " + pluralNoun1 + "under a pile of magazines, or floating in the bathroom " + pluralNoun2 + ". If you can't find your " + pluralNoun3 + " remote, dont feel bad to bad... at least you don't have to try to figure out how the " + pluralBodyPart + " thing works!";
+    var paragraph3 = " places as inside of a " + pastTenseVerb + ", " + pluralNoun1 + " under a pile of magazines, or floating in the bathroom " + pluralNoun2 + ". If you can't find your " + pluralNoun3 + " remote, dont feel bad to bad... at least you don't have to try to figure out how the " + pluralBodyPart + " thing works!";
 
 
     // Display story.
