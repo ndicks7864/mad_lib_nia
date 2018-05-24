@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<!--
+This page makes a Mad Lib story. For an example of a similar page, go here:
+
+http://www.redkid.net/madlibs/
+-->
+
+<html>
+<head>
+<title>My MadLib</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Kavivanar" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<h1>My MadLib</h1>
+
+<div class="data">
+
+    <p class="instructions">
+      Enter 15 words into the following fields below.
+      Each word should be a part of speech (Ex: noun, adjective, adverb, proper noun, etc).
+      Then click 'Make Story' to read a funny story.
+    </p>
+
+    <form>
+        Story Name <input type="text" id='storyName'> <br>
+        Adjective #1 <input type="text" id='adjective1'> <br>
+        Adjective #2 <input type="text" id='adjective2'> <br>
+        Noun #1 <input type="text" id='noun1'> <br>
+        Noun #2 <input type="text" id='noun2'> <br>
+        Noun #3 <input type="text" id='noun3'> <br>
+        Noun #4 <input type="text" id='noun4'> <br>
+        Noun #5 <input type="text" id='noun5'> <br>
+        Noun #6 <input type="text" id='noun6'> <br>
+        Noun #7 <input type="text" id='noun7'> <br>
+        Past Tense Verb<input type="text" id='pastTenseVerb'> <br>
+        Plural Noun #1 <input type="text" id='pluralNoun1'> <br>
+        Plural Noun #2 <input type="text" id='pluralNoun2'> <br>
+        Plural Noun #3 <input type="text" id='pluralNoun3'> <br>
+        Plural Body Part<input type="text" id='pluralBodyPart'> <br>
+
+        <input type="button" onclick="makeStory()" value="Make Story!">
+    </form>
+
+</div>
+
+<div class="story">
+    <h2 id="title"></h2>
+
+	   <p id="img"></p>
+
+    <p id="paragraph1"></p>
+    <p id="paragraph2"></p>
+    <p id="paragraph3"></p>
+</div>
+
+
+<script src="story_maker.js"></script>
+
+</body>
+</html>
